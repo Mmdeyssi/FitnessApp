@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fullbody"
+    android:background="#F5F5F5"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="1"
+            android:rowCount="50">
+
+            <TextView
+                android:id="@+id/title4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/lexendsemibold"
+                android:gravity="center"
+                android:text="PPL"
+                android:textColor="@color/black"
+                android:textSize="40dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/days"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lexendregular"
+                android:text="5 Days week"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/d1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#1ED9D9D9"
+                android:fontFamily="@font/lexendregular"
+                android:gravity="start"
+                android:text="Day 1 : Push"
+                android:textColor="#750E21"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/Bnesh"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#1ED9D9D9"
+                android:fontFamily="@font/lexendregular"
+                android:gravity="center"
+                android:text="Bensh Press : 3x12"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/t7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/incBench"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#1ED9D9D9"
+                android:fontFamily="@font/lexendregular"
+                android:gravity="center"
+                android:text="Incline Bensh Press : 3x12"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/t8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/dips"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#1ED9D9D9"
+                android:fontFamily="@font/lexendregular"
+                android:gravity="center"
+                android:text="Dips : 3x12"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/t9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/flies"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#1ED9D9D9"
+                android:fontFamily="@font/lexendregular"
+                android:gravity="center"
+                android:text="Overhead Press : 3x12"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/t10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/curl"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#1ED9D9D9"
+                android:fontFamily="@font/lexendregular"
+                android:gravity="center"
+                android:text="Bent-over Reverse Fly: 3x12"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/t11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/d2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#1ED9D9D9"
+                android:fontFamily="@font/lexendregular"
+                android:gravity="start"
+                android:text="Day 2 : Pull"
+                android:textColor="#750E21"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/t12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/bent"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#1ED9D9D9"
+                android:fontFamily="@font/lexendregular"
+                android:gravity="center"
+                android:text="Bent-Over Row : 3x12"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/t13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/lat"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#1ED9D9D9"
+                android:fontFamily="@font/lexendregular"
+                android:gravity="center"
+                android:text="Lat Pulldown : 3x12"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/t14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/deadlift"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#1ED9D9D9"
+                android:fontFamily="@font/lexendregular"
+                android:gravity="center"
+                android:text="Deadlift : 4x8"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/t140"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/cuban"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#1ED9D9D9"
+                android:fontFamily="@font/lexendregular"
+                android:gravity="center"
+                android:text="Bicep Curls: 3x12"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/t15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/d3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#1ED9D9D9"
+                android:fontFamily="@font/lexendregular"
+                android:gravity="start"
+                android:text="Day 3 : Legs"
+                android:textColor="#750E21"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/t16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/squad"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#1ED9D9D9"
+                android:fontFamily="@font/lexendregular"
+                android:gravity="center"
+                android:text="Squad : 4x8"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/t22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:visibility="invisible" />
+            <TextView
+                android:id="@+id/legextension"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#1ED9D9D9"
+                android:fontFamily="@font/lexendregular"
+                android:gravity="center"
+                android:text="Leg Extension : 4x10"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/t23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:visibility="invisible" />
+            <TextView
+                android:id="@+id/legcurls"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#1ED9D9D9"
+                android:fontFamily="@font/lexendregular"
+                android:gravity="center"
+                android:text="Leg Curls : 4x10"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/t24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:visibility="invisible" />
+            <TextView
+                android:id="@+id/calf"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#1ED9D9D9"
+                android:fontFamily="@font/lexendregular"
+                android:gravity="center"
+                android:text="Standing Calf Raise : 4x12"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+        </GridLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

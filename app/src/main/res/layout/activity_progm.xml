@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prog">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="2"
+        android:columnCount="2"
+        >
+        <Button
+            android:id="@+id/latimg"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:background="@mipmap/lat"
+            android:text="Push Pull"
+            android:textSize="25dp"
+            android:fontFamily="@font/lemonregular"
+            android:textColor="#EAEAEA"
+            />
+        <Button
+            android:id="@+id/giimg"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:background="@mipmap/gi"
+            android:text="Bro Split"
+            android:textSize="25dp"
+            android:fontFamily="@font/lemonregular"
+            android:textColor="#EAEAEA"
+            />
+        <Button
+            android:id="@+id/deadimg"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:background="@mipmap/dead"
+            android:text="Full Body"
+            android:textSize="25dp"
+            android:fontFamily="@font/lemonregular"
+            android:textColor="#EAEAEA"
+            />
+        <Button
+            android:id="@+id/chrisimg"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:background="@mipmap/chris"
+            android:text="Upper \n         Lower"
+            android:textSize="25dp"
+            android:fontFamily="@font/lemonregular"
+            android:textColor="#EAEAEA"
+            />
+
+    </GridLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>

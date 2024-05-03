@@ -1,0 +1,120 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f4qas31_"
+    tools:context=".CaloriesCalculator">
+
+    <LinearLayout
+        android:layout_width="351dp"
+        android:layout_height="653dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rone"
+
+            android:text="Calculate Your Calories "
+
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="100px"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginTop="60px"
+            android:layout_marginBottom="50px"
+            android:background="@drawable/border"
+            android:ems="10"
+
+            android:fontFamily="@font/rone"
+            android:hint="Age"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="#81FFFFFF"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/taille"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="40px"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:fontFamily="@font/rone"
+            android:hint=" Height en cm"
+            android:inputType="numberDecimal"
+            android:textColor="@color/white"
+            android:textColorHint="#82FFFFFF" />
+
+        <EditText
+            android:id="@+id/poids"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="40px"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:fontFamily="@font/rone"
+            android:hint="  Poids en KG"
+            android:inputType="numberDecimal"
+            android:textColor="@color/white"
+            android:textColorHint="#8CFFFFFF" />
+
+        <EditText
+            android:id="@+id/sex"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="40px"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:fontFamily="@font/rone"
+            android:hint="  M or F"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="#8CFFFFFF" />
+
+        <Button
+            android:id="@+id/calcul"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginTop="30px"
+            android:layout_marginBottom="70px"
+            android:backgroundTint="#F83436"
+            android:fontFamily="@font/lexb"
+
+            android:text="CALCUL"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lex"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="50px"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#061220"
+    tools:context=".Signup" >
+
+    <LinearLayout
+        android:layout_width="351dp"
+        android:layout_height="653dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nixie"
+
+            android:text="Create Account"
+
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="100px"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/fname"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginTop="60px"
+            android:layout_marginBottom="50px"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:fontFamily="@font/rone"
+            android:hint="Fullname"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="#81FFFFFF"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/emaile"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="40px"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:fontFamily="@font/rone"
+            android:hint="  Email"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="#82FFFFFF" />
+
+        <EditText
+            android:id="@+id/Ph"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="40px"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:fontFamily="@font/rone"
+            android:hint="  Phone"
+            android:inputType="phone"
+            android:textColor="@color/white"
+            android:textColorHint="#8CFFFFFF" />
+
+        <EditText
+            android:id="@+id/mdp"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="40px"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:fontFamily="@font/rone"
+
+            android:hint="  Password"
+            android:inputType="textPassword"
+
+            android:textColor="@color/white"
+            android:textColorHint="#8CFFFFFF" />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginTop="30px"
+            android:layout_marginBottom="70px"
+            android:background="@drawable/round_btn"
+            android:backgroundTint="#F83436"
+            android:fontFamily="@font/lexb"
+
+            android:text="Sign Up"
+            android:textColor="#EDE7E7"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You can find us on "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:fontFamily="@font/yone"
+            android:textSize="40px"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/fb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="380px"
+                android:layout_marginTop="40px"
+                android:layout_marginRight="30px"
+                android:scaleType="center"
+                android:src="@drawable/logos__facebook" />
+
+            <ImageView
+                android:id="@+id/insta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40px"
+                android:scaleType="center"
+                android:src="@drawable/skill_icons__instagram" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:fontFamily="@font/yone"
+            android:text="Already have an account ?"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40px" />/>
+        <TextView
+            android:id="@+id/sinn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:fontFamily="@font/lexb"
+            android:text="Sign in"
+            android:textAlignment="center"
+            android:textColor="#F83436"
+            android:textSize="40px" />
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

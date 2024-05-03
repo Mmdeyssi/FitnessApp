@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/cbum"
+    tools:context="cbum">
+
+    <Button
+        android:id="@+id/daily"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="572dp"
+        android:layout_marginEnd="116dp"
+        android:textColor="#EAEAEA"
+        android:background="@drawable/round_btn"
+        android:text="Daily calories"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="532dp"
+        android:layout_marginEnd="134dp"
+        android:fontFamily="@font/lexendsemibold"
+        android:text="Get start now"
+        android:textColor="#EAEAEA"
+        android:textSize="21dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/program"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="644dp"
+        android:layout_marginEnd="116dp"
+        android:background="@drawable/round_btn"
+        android:text="Find program"
+        android:textColor="#EAEAEA"
+        android:textColorHighlight="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/geti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="484dp"
+        android:layout_marginEnd="93dp"
+        android:fontFamily="@font/lexendsemibold"
+        android:text="One day or day one ?"
+        android:textColor="#EAEAEA"
+        android:textSize="21dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
